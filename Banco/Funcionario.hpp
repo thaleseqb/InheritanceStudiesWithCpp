@@ -1,5 +1,4 @@
 #include "Cpf.hpp"
-#include "Cpf.hpp"
 #include <string>
 #include "Pessoa.hpp"
 
@@ -10,5 +9,6 @@ private:
 
 public:
     Funcionario(Cpf cpf, std::string nome, float salario);
+    std::string recuperaNome();
 
 };

@@ -4,13 +4,16 @@
 
 
 class Pessoa {
-
-private:
+// this property insures that the member will not
+// be changed, but it can be read by the heirs
+protected:
 	Cpf cpf;
 	std::string nome;
-	void verificaTamanhoDoNome();
 
 public:
 	Pessoa(Cpf cpf, std::string nome);
+
+private:
+	void verificaTamanhoDoNome();
 
 };

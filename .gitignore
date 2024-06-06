@@ -1,0 +1,9 @@
+build-Debug
+.codelite/
+Makefile
+cpp-oo.workspace
+tags
+.vs
+Banco/Banco.mk
+Banco/Banco.project
+Banco/compile_flags.txt
